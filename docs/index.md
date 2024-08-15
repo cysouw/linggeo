@@ -7,7 +7,9 @@ author: Michael Cysouw <cysouw@mac.com>
 
 ## Paper in development
 
-The current draft is available as [html](paper.html) or [pdf](paper.pdf). Note that the html-version is a single file that is completely self-contained and can be easily saved for offline use, just as a pdf-version (e.g. by right-clicking on the link and selecting "Save Linked File").
+The current draft is available as [html](paper.html) or [pdf](paper.pdf). Note that the html-version is a single file that is completely self-contained and can be easily saved for offline use, similar to the pdf-version (e.g. by right-clicking on the link and selecting "Save Linked File").
+
+[test](paper.html.br)
 
 ## Reimaginging WALS maps
 

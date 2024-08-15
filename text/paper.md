@@ -8,7 +8,7 @@ dialect maps [@rabanus2018; @rabanus2020]
 
 # Projection
 
-![Different projections](figures/projectionsWorld)
+![Different projections](figures/projectionsWorld){.inline-svg}
 
 # Weighting
 
