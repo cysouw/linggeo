@@ -1,0 +1,29 @@
+# pandoc 'defaults'
+
+from: markdown
+to: html
+output-file: docs/paper.html
+
+input-files:
+- text/paper.md
+
+filters:
+- filters/setdate.lua
+- filters/inline-footnotes.lua
+- filters/strikeout-to-smallcaps.lua
+- filters/toc-css.lua
+- pandoc-crossref
+- filters/crossref-adapt.lua
+- citeproc
+
+metadata-files:
+- settings/metadata.yaml
+
+# pandoc-native functionalities
+
+number-sections: true
+table-of-contents: true
+standalone: true
+self-contained: true
+default-image-extension: svg
+wrap: preserve

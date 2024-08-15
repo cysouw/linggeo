@@ -1,28 +1,23 @@
-# Geographic display of linguistic data
+# Visualisation in comparative linguistics
 
-## Previous research
+visualisation in comparative linguistics is mainly here to inspect data and formulate hypotheses and generalisations
 
-[@mcnew2018]
-[@rohrdantz2012]
-[@comrie2020]
+Previous research [@rohrdantz2012; @mcnew2018; @comrie2020]
 
-dialect maps [@rabanus2018][@rabanus2020]
+dialect maps [@rabanus2018; @rabanus2020]
 
-## Notes
+# Projection
+
+![Different projections](figures/projectionsWorld)
+
+# Weighting
 
 Populationdata from [@amano2014]
 
-# Visualisation in comparative linguistics
+# Interpolation
 
-visualisation is used here to inspect data and formulate hypotheses and generalisations
+# Prediction
 
-## Factor map
+# Conclusion
 
-a factor map is a visualisation for categorical data with various levels (nominal data, typically modelled as "factors" in R).
-
-## Level map
-
-a level map is a map with lines indicating groups.
-
-## Weighted map
-
+# References

@@ -1,0 +1,25 @@
+# pandoc 'defaults'
+
+from: markdown
+to: pdf
+pdf-engine: xelatex
+output-file: docs/paper.pdf
+
+input-files:
+- text/paper.md
+
+filters:
+- filters/setdate.lua
+- filters/strikeout-to-smallcaps.lua
+- pandoc-crossref
+- citeproc
+
+metadata-files:
+- settings/metadata.yaml
+
+# pandoc-native functionalities
+
+number-sections: true
+table-of-contents: true
+standalone: true
+default-image-extension: pdf
