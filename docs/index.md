@@ -3,7 +3,7 @@ title: Geographic display of linguistic data
 author: Michael Cysouw <cysouw@mac.com>
 ...
 
-[note]: # make html with: pandoc -s index.md -o index.html
+[note]: # make html with: pandoc -s docs/index.md -o docs/index.html
 
 ## Paper in development
 
