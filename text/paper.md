@@ -1,6 +1,6 @@
 # Visualisation in comparative linguistics
 
-visualisation in comparative linguistics is mainly here to inspect data and formulate hypotheses and generalisations
+visualisation in comparative linguistics is mainly used to inspect data and formulate hypotheses and generalisations
 
 Previous research [@rohrdantz2012; @mcnew2018; @comrie2020]
 

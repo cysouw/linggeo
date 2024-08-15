@@ -8,16 +8,15 @@ output-file: docs/paper.pdf
 input-files:
 - text/paper.md
 
+metadata-files:
+- TITLE.yaml
+- settings/settings.yaml
+
 filters:
 - filters/setdate.lua
 - filters/strikeout-to-smallcaps.lua
 - pandoc-crossref
 - citeproc
-
-metadata-files:
-- settings/metadata.yaml
-
-# pandoc-native functionalities
 
 number-sections: true
 table-of-contents: true

@@ -1,9 +1,3 @@
-# metadata
-title: Geographic display of linguistic data
-author: Michael Cysouw
-affiliation: Philipps-Universität Marburg
-e-mail: cysouw@uni-marburg.de
-
 # main settings
 mainfont: Libertinus Serif
 fontsize: 12pt
@@ -13,15 +7,9 @@ toc-title: Contents
 margin-left: 4cm
 margin-right: 4cm
 
-# location of the bibliography file
-bibliography: /Users/cysouw/Documents/Bibdesk/michaellibrary.bib
-
 # citeproc settings
 citation-style: settings/unified.csl
 link-citations: true
-
-# language for hyphenation
-lang: en-US
 
 # pandoc-crossref settings
 secPrefix: 
