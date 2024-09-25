@@ -123,8 +123,10 @@ walsMap <- function() {
     , position = "topright"
     , opacity = 1
   )
+
   map@map <- leafem::removeMouseCoordinates(map)
   setwd("docs/WALS")
   mapview::mapshot2(map, url = paste0("WALS", feature, ".html"))
   setwd("../..")
+
 }

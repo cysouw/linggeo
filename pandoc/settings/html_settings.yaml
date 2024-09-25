@@ -1,0 +1,36 @@
+header-includes: |
+  <style>
+    h1 {
+      font-size: 16pt;}
+    p {
+      text-align: justify;
+      hyphens: auto;
+    }
+    .author {
+      text-align: center;
+    }
+    .date {
+      text-align: center;
+    }
+    a:link {
+      text-decoration: none;
+      color: black;
+    }
+    a:hover { 
+      text-decoration: underline; 
+    }
+    img {
+      width: 100%;
+    }
+    figure {
+      margin-inline-start: 0;
+      margin-inline-end: 0;
+    }
+    figcaption {
+      text-align: center;
+    }
+    div.csl-entry {
+      text-align: justify;
+    }
+  </style>
+  <link href="https://fonts.cdnfonts.com/css/libertinus-serif" rel="stylesheet" data-external="1">

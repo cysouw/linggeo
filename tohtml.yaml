@@ -1,23 +1,25 @@
-# pandoc 'defaults'
+# pandoc defaults
 
 from: markdown
 to: html
-output-file: docs/paper.html
 
 input-files:
 - text/paper.md
 
+output-file: docs/paper.html
+
 metadata-files:
-- TITLE.yaml
-- settings/settings.yaml
+- METADATA.yaml
+- pandoc/settings/pandoc_settings.yaml
+- pandoc/settings/html_settings.yaml
 
 filters:
-- filters/setdate.lua
-- filters/inline-footnotes.lua
-- filters/strikeout-to-smallcaps.lua
-- filters/toc-css.lua
+- pandoc/filters/setdate.lua
+- pandoc/filters/inline-footnotes.lua
+- pandoc/filters/strikeout-to-smallcaps.lua
+- pandoc/filters/toc-css.lua
 - pandoc-crossref
-- filters/crossref-adapt.lua
+- pandoc/filters/crossref-adapt.lua
 - citeproc
 
 number-sections: true

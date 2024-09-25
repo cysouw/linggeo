@@ -1,20 +1,21 @@
-# pandoc 'defaults'
+# pandoc defaults
 
 from: markdown
 to: pdf
 pdf-engine: xelatex
-output-file: docs/paper.pdf
 
 input-files:
 - text/paper.md
 
+output-file: docs/paper.pdf
+
 metadata-files:
-- TITLE.yaml
-- settings/settings.yaml
+- METADATA.yaml
+- pandoc/settings/pandoc_settings.yaml
 
 filters:
-- filters/setdate.lua
-- filters/strikeout-to-smallcaps.lua
+- pandoc/filters/setdate.lua
+- pandoc/filters/strikeout-to-smallcaps.lua
 - pandoc-crossref
 - citeproc
 

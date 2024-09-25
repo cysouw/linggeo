@@ -1,0 +1,9 @@
+# pandoc metadata
+title: Geographic display of linguistic data
+author: Michael Cysouw
+
+# location of the bibliography file
+bibliography: /Users/cysouw/Documents/Bibdesk/michaellibrary.bib
+
+# language for hyphenation
+lang: en-US

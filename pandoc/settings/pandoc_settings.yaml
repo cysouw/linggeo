@@ -1,0 +1,27 @@
+# main settings
+mainfont: Libertinus Serif
+fontsize: 12pt
+linestretch: 1.5
+top-level-division: section
+toc-title: Contents
+margin-left: 4cm
+margin-right: 4cm
+
+# citeproc settings
+citation-style: pandoc/settings/unified.csl
+link-citations: true
+
+# pandoc-crossref settings
+secPrefix: 
+  - Sec­tion
+  - Sec­tions
+tblPrefix:
+  - Table
+  - Tables
+figPrefix:
+  - Figure
+  - Figures
+pairDelim: "-"
+chapters: false
+linkReferences: true
+setLabelAttribute: true
